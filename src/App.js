@@ -15,14 +15,18 @@ const Header = styled.h1`
 
   &:hover{
     color: #297729;
-  }
+  }  
 `; 
+
+const SubHeader = styled(Header)`
+  color: #990000;
+`
 
 function App() {
   return (
     <Container>
-      <Header>Welcome to styled component!
-      </Header>
+      <Header>Welcome to styled component!</Header>
+      <SubHeader>Hello</SubHeader>
     </Container>
   );
 }
