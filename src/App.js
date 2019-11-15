@@ -12,6 +12,10 @@ const Container = styled.div`
 const Header = styled.h1`
   text-align: center;
   color: white;
+
+  &:hover{
+    color: #297729;
+  }
 `; 
 
 function App() {
